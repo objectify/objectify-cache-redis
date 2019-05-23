@@ -6,10 +6,10 @@ This is a cache plugin for Objectify that uses Redis. It can work with a standal
 
 ```xml
 <dependencies>
-	<dependency>
-		<groupId>com.googlecode.objectify</groupId>
-		<artifactId>objectify-cache-redis</artifactId>
-		<version>(check maven central for latest)</version>
+    <dependency>
+        <groupId>com.googlecode.objectify</groupId>
+        <artifactId>objectify-cache-redis</artifactId>
+        <version>(check maven central for latest)</version>
     </dependency>
 </dependencies>
 ```
@@ -20,8 +20,8 @@ Initialize your ObjectifyFactory with the RedisMemcacheService:
 
 ```java
 ObjectifyService.init(
-		new ObjectifyFactory(
-				new RedisMemcacheService("localhost", 6379)));
+    new ObjectifyFactory(
+        new RedisMemcacheService("localhost", 6379)));
 ```
 
 If you want more configuration options, you can construct the `RedisMemcacheService` with a `JedisPool` instance. See the [Jedis documentation](https://github.com/xetorthio/jedis) for more details.
