@@ -11,7 +11,7 @@
 
 	<groupId>com.googlecode.objectify</groupId>
 	<artifactId>objectify-cache-redis</artifactId>
-	<version>0.1</version>
+	<version>0.2-SNAPSHOT</version>
 
 	<name>Objectify App Engine Cache Redis</name>
 	<description>Pluggable memory cache implementation based on Redis</description>
@@ -20,7 +20,7 @@
 	<scm>
 		<url>scm:git:https://github.com/objectify/objectify-cache-redis</url>
 		<developerConnection>scm:git:git@github.com:objectify/objectify-cache-redis</developerConnection>
-		<tag>objectify-cache-redis-0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<licenses>
 		<license>
